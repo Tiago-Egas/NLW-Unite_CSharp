@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ia729TKtlRau4ys6MF+0tKAM8gZ73tUMu32LpVkRGvLkg+32RaUvX9UyLPMXu7CpSo6xGClESdSw/JQa2rXgyg==",
+  "success": true,
+  "projectFilePath": "/home/tiago/devhome/PassIn/PassIn.Api/PassIn.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/tiago/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/tiago/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/tiago/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/tiago/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/tiago/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/tiago/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

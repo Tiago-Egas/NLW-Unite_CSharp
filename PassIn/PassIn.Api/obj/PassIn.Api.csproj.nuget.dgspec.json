@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/devhome/PassIn/PassIn.Api/PassIn.Api.csproj": {}
+  },
+  "projects": {
+    "/mnt/devhome/PassIn/PassIn.Api/PassIn.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/devhome/PassIn/PassIn.Api/PassIn.Api.csproj",
+        "projectName": "PassIn.Api",
+        "projectPath": "/mnt/devhome/PassIn/PassIn.Api/PassIn.Api.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/devhome/PassIn/PassIn.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/devhome/PassIn/PassIn.Application/PassIn.Application.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Application/PassIn.Application.csproj"
+              },
+              "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj"
+              },
+              "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/devhome/PassIn/PassIn.Application/PassIn.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/devhome/PassIn/PassIn.Application/PassIn.Application.csproj",
+        "projectName": "PassIn.Application",
+        "projectPath": "/mnt/devhome/PassIn/PassIn.Application/PassIn.Application.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/devhome/PassIn/PassIn.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj"
+              },
+              "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj"
+              },
+              "/mnt/devhome/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj": {
+                "projectPath": "/mnt/devhome/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj",
+        "projectName": "PassIn.Communication",
+        "projectPath": "/mnt/devhome/PassIn/PassIn.Communication/PassIn.Communication.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/devhome/PassIn/PassIn.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj",
+        "projectName": "PassIn.Exceptions",
+        "projectPath": "/mnt/devhome/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/devhome/PassIn/PassIn.Exceptions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/devhome/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/devhome/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj",
+        "projectName": "PassIn.Infrastructure",
+        "projectPath": "/mnt/devhome/PassIn/PassIn.Infrastructure/PassIn.Infrastructure.csproj",
+        "packagesPath": "/home/tiago/.nuget/packages/",
+        "outputPath": "/home/tiago/devhome/PassIn/PassIn.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tiago/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
